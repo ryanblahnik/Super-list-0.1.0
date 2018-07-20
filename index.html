@@ -7,8 +7,6 @@
         add link to css
         add link to jquery
         add link to our app
-
-
     -->
     <script
       src="http://code.jquery.com/jquery-3.3.1.js"
@@ -20,17 +18,23 @@
     <script src="app.js"></script>
   </head>
   <body>
-    <div>
+    
+    <div class="container">
+
       <!-- <form class="crud-form"> -->
-        <input class="input-field-title" type="text">
-        <input class="input-field-body" type="text">
-        <button class="set-btn">store data</button>
-        <button class="get-btn">get data</button>
-        <button class="delete-btn">delete data</button>
+      <input class="input-field-title" type="text">
+      <textarea class="input-field-body" placeholder="Enter the content"></textarea>
+      <!-- maybe switch to <div id='fake_textarea' contenteditable></div-->
+      <button class="set-btn">store data</button>
+      <button class="get-btn">get data</button>
+      <button class="delete-btn">delete data</button>
       <!-- </form> -->
+
+      <div class="item-display">
+
+      </div>
+
     </div>
 
-    <div class="debug">
-    </div>
   </body>
 </html>
