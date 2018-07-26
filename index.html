@@ -2,35 +2,47 @@
 <html lang="en">
   <head>
     <title>crud</title>
-    <!--
-      Todo
-        add link to css
-        add link to jquery
-        add link to our app
-    -->
     <script
       src="http://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"></script>
-    <!-- check this link -->
-    <link rel="stylesheet" href="style.css">
-    <!-- check that link -->
     <script src="app.js"></script>
+    <link rel="stylesheet" href="bootswatch_simplex.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    
+
+    <h1>test</h1>
+
     <div class="container">
 
-      <!-- <form class="crud-form"> -->
-      <input class="input-field-title" type="text">
-      <textarea class="input-field-body" placeholder="Enter the content"></textarea>
-      <!-- maybe switch to <div id='fake_textarea' contenteditable></div-->
-      <button class="set-btn">store data</button>
-      <button class="get-btn">get data</button>
-      <button class="delete-btn">delete data</button>
-      <!-- </form> -->
+      <div class="entry">
 
-      <div class="item-display">
+        <input class="addition" type="text" placeholder="Add item">
+
+        <button class="btn add">Add to list</button>
+
+      </div>
+
+
+      <div class="progress">
+
+        <button class="btn sort">Go</button>
+
+      </div>
+
+
+      <div class="in-store">
+
+        <button class="btn finish">Finish</button>
+
+      </div>
+
+
+      <div class="quick-note">
+
+        <textarea class="quick" placeholder="Space for a quick note"></textarea>
+        <button class="btn clear">Clear</button>
 
       </div>
 
