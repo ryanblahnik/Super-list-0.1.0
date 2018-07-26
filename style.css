@@ -35,3 +35,53 @@ button:click {
 .input-field-body {
   font-size: 25px;
 }*/
+
+.container {
+}
+
+.entry {
+}
+
+.addition {
+}
+
+.add {
+  background-color: #00d100;
+}
+
+.progress {
+  height: 300px;
+  width: 300px;
+  background-color: #b09eb3;
+}
+
+.sort {
+}
+
+.in-store {
+}
+
+.finish {
+}
+
+.quick-note {
+}
+
+.quick {
+}
+
+.clear {
+}
+
+h3 {
+  color: #009b00;
+}
+
+body {
+  background-color: #b09eb3;
+}
+
+/*body {
+  background-color: #b5c5b5;
+}*/
+
