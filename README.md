@@ -18,8 +18,8 @@ object has data for most of the common groceries, it won't need relatively very 
   
 We want a simple interface with clear text that's easy to work with. When an
 item's entered, it's appended to the current list. When we go to the store, the
-list is sorted by the items' location data. Double-tapping an item marks it off
-on the list as we go. When we're done, the list is stored for reference and we
+list is sorted by the items' location data. Double-tapping an item should mark it off
+on the list as we go. When we're done, the list should be stored for reference and we
 return to the entry mode.
 
 
