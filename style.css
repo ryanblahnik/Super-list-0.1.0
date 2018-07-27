@@ -1,103 +1,10 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   2. v2.0 | 20110126
-   License: none (public domain)
-*/
-
-/*
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-/*article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
 body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-*/
-
-
-/*.container {
-  display: flex;
-  justify-content: center;
+  background-color: #c0b3c2;
+  color: #002f3d;
 }
 
-
-.item-display {
-  flex-grow: 1;
-}
-
-
-button {
-  border-radius: 4px;
-  width: 150px;
-  padding: 5px;
-  height: 25px;
-}
-
-
-button:hover {
-  background-color: dodgerblue;
-}
-
-button:click {
-  background-color: red;
-}
-
-
-.input-field-title {
-  text-align: left;
-  height: 50px;
-}
-
-
-.input-field-body {
-  font-size: 25px;
-}*/
-
-
-
-
-
-
-
-.container {
-}
-
-.entry {
+h3 {
+  color: #009b00;
 }
 
 .addition {
@@ -112,47 +19,16 @@ button:click {
 
 .progress {
   height: auto;
-  /*height: 300px;*/
-  /*overflow: hidden;*/
   width: 300px;
   font-size: 1.8rem;
   background-color: #c0b3c2;
   padding-left: 10px;
 }
 
-.sort {
-}
-
-.in-store {
-}
-
-.finish {
-}
-
-.quick-note {
-}
-
 .quick {
   background-color: #e5f9ff;
   color: #002f3d;
 }
-
-.clear {
-}
-
-h3 {
-  color: #009b00;
-}
-
-body {
-  background-color: #c0b3c2;
-  color: #002f3d;
-}
-
-/*body {
-  background-color: #b5c5b5;
-}*/
-
 
 .space_1 {
   height: 10px;
@@ -189,6 +65,3 @@ body {
 .space_9 {
   height: 10px;
 }
-
-
-
