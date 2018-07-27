@@ -1,3 +1,55 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   2. v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*/
+
+
 /*.container {
   display: flex;
   justify-content: center;
@@ -36,6 +88,12 @@ button:click {
   font-size: 25px;
 }*/
 
+
+
+
+
+
+
 .container {
 }
 
@@ -43,16 +101,23 @@ button:click {
 }
 
 .addition {
+  font-size: 1.6rem;
+  background-color: #e5f9ff;
+  color: #002f3d;
 }
 
 .add {
-  background-color: #00d100;
+  background-color: #009b00;
 }
 
 .progress {
-  height: 300px;
+  height: auto;
+  /*height: 300px;*/
+  /*overflow: hidden;*/
   width: 300px;
-  background-color: #b09eb3;
+  font-size: 1.8rem;
+  background-color: #c0b3c2;
+  padding-left: 10px;
 }
 
 .sort {
@@ -68,6 +133,8 @@ button:click {
 }
 
 .quick {
+  background-color: #e5f9ff;
+  color: #002f3d;
 }
 
 .clear {
@@ -78,10 +145,50 @@ h3 {
 }
 
 body {
-  background-color: #b09eb3;
+  background-color: #c0b3c2;
+  color: #002f3d;
 }
 
 /*body {
   background-color: #b5c5b5;
 }*/
+
+
+.space_1 {
+  height: 10px;
+}
+
+.space_2 {
+  height: 200px;
+}
+
+.space_3 {
+  height: 10px;
+}
+
+.space_4 {
+  height: 30px;
+}
+
+.space_5 {
+  height: 500px;
+}
+
+.space_6 {
+  height: 10px;
+}
+
+.space_7 {
+  height: 100px;
+}
+
+.space_8 {
+  height: 10px;
+}
+
+.space_9 {
+  height: 10px;
+}
+
+
 
